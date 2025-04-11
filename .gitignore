@@ -1,0 +1,77 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build directories
+dist/
+build/
+out/
+
+# Package distribution
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE and Editor folders
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+Thumbs.db
+Desktop.ini
+
+# Optional npm cache directory
+.npm/
+
+# Operating System files
+ehthumbs.db
+Icon?
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# .env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by testing tools like Jest
+coverage/
+
+# Next.js build output
+.next/
+
+# Gatsby files
+.cache/
+public/
+
+# React Native
+.expo/
+.expo-shared/
+
+# TypeScript
+*.tsbuildinfo
+
+# Jest / Testing
+test-results

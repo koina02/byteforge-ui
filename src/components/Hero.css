@@ -1,0 +1,48 @@
+/* src/styles.css or your global CSS file */
+
+.hero-section {
+  background-image: url('path_to_your_image.jpg');
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  color: white;
+  max-width: 80%;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem; /* Smaller font size for mobile */
+  }
+
+  .hero-content p {
+    font-size: 1.2rem; /* Smaller font size for mobile */
+  }
+
+  /* Adjust other sections if needed */
+  .about-section, .portfolio-section, .contact-section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about-section h2, .portfolio-section h2, .contact-section h2 {
+    font-size: 2rem;
+  }
+}
+
